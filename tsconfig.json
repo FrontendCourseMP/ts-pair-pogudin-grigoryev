@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "allowJs": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
