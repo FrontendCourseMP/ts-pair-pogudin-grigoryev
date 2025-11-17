@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2015", "DOM"],
+    "rootDir": "./src",
     "outDir": "./dist",
-    "allowJs": false
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src"]
 }
