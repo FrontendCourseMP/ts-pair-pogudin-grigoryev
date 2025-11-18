@@ -19,6 +19,34 @@
     <h3>Результат:</h3>
     <output id="result"></output>
 
+    <hr style="margin: 40px 0;" />
+
+    <h1>Расчет времени прибытия</h1>
+
+    <label for="scheduledHour">Час прибытия по расписанию (0-23):</label><br />
+    <input
+      id="scheduledHour"
+      type="number"
+      placeholder="например: 22"
+      min="0"
+      max="23"
+      style="width: 400px; margin-bottom: 10px;"
+    /><br />
+
+    <label for="delayHours">Количество часов опоздания:</label><br />
+    <input
+      id="delayHours"
+      type="number"
+      placeholder="например: 2"
+      min="0"
+      style="width: 400px; margin-bottom: 10px;"
+    /><br />
+
+    <button id="calculateBtn">Рассчитать</button>
+
+    <h3>Результат:</h3>
+    <output id="arrivalResult"></output>
+
     <script type="module" src="./dist/index.js"></script>
   </body>
 </html>

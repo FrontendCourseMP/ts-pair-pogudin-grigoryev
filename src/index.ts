@@ -1,4 +1,8 @@
-import validate from "./tools/validate.js"
+import validate from "./tools/validate.js";
+import {
+  calculateArrival,
+  parseArrivalData,
+} from "./tools/calculateArrival.js";
 
 const inputEl = document.getElementById("brackets") as HTMLInputElement;
 const btn = document.getElementById("checkBtn") as HTMLButtonElement;
